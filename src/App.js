@@ -1,10 +1,28 @@
+import GlobalStyles from "./styles/GlobalStyles"
+import { ThemeProvider } from "styled-components"
+import {light} from './styles/Themes';
+import Navigation from "./componenets/Navigation";
+import About from "./componenets/sections/About";
+import Roadmap from "./componenets/sections/Roadmap";
+import Faq from "./componenets/sections/Faq";
+import Footer from "./componenets/Footer";
+import Home from "./componenets/sections/Home";
+
 
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <>
+     <GlobalStyles />
+     <ThemeProvider theme={light}>
+      <Navigation/>
+      <Home/>
+      {/* <About/> */}
+      <Roadmap/>
+      <Faq/>
+      <Footer/>
+     </ThemeProvider>
+    </>
   );
 }
 
