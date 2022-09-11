@@ -7,6 +7,7 @@ import Roadmap from "./componenets/sections/Roadmap";
 import Faq from "./componenets/sections/Faq";
 import Footer from "./componenets/Footer";
 import Home from "./componenets/sections/Home";
+import Showcase from "./componenets/sections/Showcase";
 
 
 
@@ -18,7 +19,8 @@ function App() {
       <Navigation/>
       <Home/>
       <About/>
-      <Roadmap/>
+      {/* <Roadmap/> */}
+      <Showcase/>
       <Faq/>
       <Footer/>
      </ThemeProvider>

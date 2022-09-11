@@ -32,7 +32,7 @@ const Container = styled.div`
   }
 
   .swiper-slide {
-    background-color: ${props => props.theme.carouselColor};
+    background-color: ${(props) => props.theme.carouselColor};
     border-radius: 20px;
 
     display: flex;
@@ -41,7 +41,7 @@ const Container = styled.div`
   }
 
   .swiper-button-next {
-    color: ${props => props.theme.text};
+    color: ${(props) => props.theme.text};
     right: 0;
     top: 60%;
     width: 4rem;
@@ -55,8 +55,8 @@ const Container = styled.div`
     }
   }
 
-    .swiper-button-prev {
-    color: ${props => props.theme.text};
+  .swiper-button-prev {
+    color: ${(props) => props.theme.text};
     left: 0;
     top: 60%;
     width: 4rem;
@@ -76,74 +76,69 @@ const Carousel = () => {
   return (
     <>
       <Container>
-       
-   <Swiper
-autoplay={{
-  delay: 2000,
-  disableOnInteraction: false,
-}}
-navigation={{
-  type: "fraction",
-}}
-pagination={{
-  type: "  fraction",
-}}
-scrollbar={{
-  draggable: true,
-}}
-effect={"cards"}
-grabCursor={true}
-modules={[EffectCards, Pagination, Navigation, Autoplay]}
-className="mySwiper"
->
-<SwiperSlide>
-  {" "}
-  <img src={img1} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img2} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img3} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img4} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img5} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img6} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img7} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img8} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img9} alt="The Weirdos" />
-</SwiperSlide>
-<SwiperSlide>
-  {" "}
-  <img src={img10} alt="The Weirdos" />
-</SwiperSlide>
-</Swiper> 
+        <Swiper
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          navigation={{
+            type: "fraction",
+          }}
+          pagination={{
+            type: "  fraction",
+          }}
+          scrollbar={{
+            draggable: true,
+          }}
+          effect={"cards"}
+          grabCursor={true}
+          modules={[EffectCards, Pagination, Navigation, Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            {" "}
+            <img src={img1} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img2} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img3} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img4} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img5} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img6} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img7} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img8} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img9} alt="The Weirdos" />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <img src={img10} alt="The Weirdos" />
+          </SwiperSlide>
+        </Swiper>
       </Container>
     </>
   );
 };
 
 export default Carousel;
-
-
-
-
