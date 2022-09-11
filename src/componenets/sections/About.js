@@ -18,38 +18,20 @@ const Section = styled.section`
 const Container = styled.div`
   width: 75%;
   margin: 0 auto;
-  //   background-color: lightblue;
+//   background-color: lightblue;
 
   display: flex;
   justify-content: center;
-  align-items: center;
-`;
-
+  align-items:center;
+`
 const Box = styled.div`
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-// const Title = styled.h2`
-// font-size: ${(props) => props.theme.fontxxl};
-//   text-transform: capitalize;
-//   width: 80%;
-//   margin: 0 auto;
-//   color: ${(props) => props.theme.body};
-//   align-self: flex-start;
-// `
-// const SubText = styled.h2`
-// font-size: ${(props) => props.theme.fontlg};
-// width: 80%;
-// margin: 1rem auto;
-// font-weight:400;
-// color: ${(props) => props.theme.body};
-// align-self: flex-start;
-// `
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+`
 
 const About = () => {
   return (

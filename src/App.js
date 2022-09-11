@@ -17,7 +17,7 @@ function App() {
      <ThemeProvider theme={light}>
       <Navigation/>
       <Home/>
-      {/* <About/> */}
+      <About/>
       <Roadmap/>
       <Faq/>
       <Footer/>
