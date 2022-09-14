@@ -9,6 +9,7 @@ const Section = styled.section`
   width: 100vw;
   min-height: 90vh;
   position: relative;
+  
   background-color: ${(props) => props.theme.body};
 `;
 const Container = styled.div`
