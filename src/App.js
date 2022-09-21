@@ -26,7 +26,7 @@ function App() {
       <Showcase/>
       <Faq/>
       <Footer/>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
      </ThemeProvider>
     </>
   );
