@@ -26,19 +26,22 @@ list-style:none;
 `
 const MenuItem = styled.li`
 margin: 0 1rem;
+width: fit-content;
 color: ${props => props.theme.text};
 cursor: pointer;
 
+
 &::after{
-    content:'';
+    content:' ';
     display: block;
-    width:0%;
-    height:2px;
+    width: 0%;
+    height: 2px;
     background: ${props => props.theme.text};
     transition: width 0.3s ease;
 }
+
 &:hover::after{
-    width:100%;
+  width: 100%;
 }
 
 `

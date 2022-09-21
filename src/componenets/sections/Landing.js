@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-// import GIF from '../../assets/video1.mp4';
-import GIF from "../../assets/video1.mp4";
+import GIF from '../../assets/video2.mp4';
+// import GIF from "../../assets/landingvideo.mp4";
 import CoverVideo from "../CoverVideo";
 import TypeWriterText from "./TypeWriterText";
 
@@ -59,7 +59,7 @@ const Box = styled.div`
 const Landing = () => {
   return (
     <>
-      <Section>
+      <Section  id="home">
         <VideoContainer>
           <video src={GIF} type="video/mp4" autoPlay muted loop />
           <TypeWriterText />

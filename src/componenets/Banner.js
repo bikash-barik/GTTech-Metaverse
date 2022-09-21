@@ -45,14 +45,97 @@ img{
 }
 `;
 
+const JoiNow = styled.button`
+display: inline-block;
+background-color: ${props => props.theme.body};
+color:${props => props.theme.text};
+outline: none;
+border: none;
+font-weight: 600;
+font-size: ${props => props.theme.fontlg};
+padding: 1.5rem 3rem;
+border-radius:50px;
+curser: pointer;
+transform: all 0.2s ease;
+position: relativel;
+
+&:hover{
+    transform: scale(0.9);
+}
+
+&::after{
+    content:' ';
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 2px solid ${props => props.theme.body};
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transform: all 0.2s ease;
+
+}
+
+&:hover::after{
+    transform: translate(-50%, -50%) scale(1);
+    padding: 0.3rem;
+}
+
+`
+
+
+const Container = styled.div`
+left:0;
+right:0;
+bottom:0;
+top: 0;
+
+padding: 1rem 2rem;
+position: absolute;
+z-index: 11;
+width: 95%;
+
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+`
+
 const Title = styled.h1`
-  font-size: ${(props) => props.theme.fontxxxl};
+  font-size: ${(props) => props.theme.fontxxl};
   color: ${(props) => props.theme.body};
-//   padding: 1rem 2rem;
-  position: relative;
-  z-index: 10;
-//   width: 35%;
+  // left:0;
+  // right:0;
+  // bottom:0;
+  // top: 0;
+
+  // // padding: 1rem 2rem;
+  // position: absolute;
+  // z-index: 11;
+  // width: 35%;
 `;
+
+
+// const Title = styled.h1`
+//   font-size: ${(props) => props.theme.fontxxxl};
+//   color: ${(props) => props.theme.body};
+//   padding: 1rem 2rem;
+//   position: absolute;
+//   z-index: 11;
+//   width: 35%;
+//   text-transform: capitalize;
+// `;
+
+
+const BtnContainer = styled.div`
+width: 35%;
+display: flex;
+  font-size: ${(props) => props.theme.fontxxxl};
+  justify-content: flex-end;
+`
+
+
 const Banner = () => {
   return (
     <>
@@ -66,10 +149,26 @@ const Banner = () => {
           <img src={img6} alt="metavers" />
          
         </ImgContainer>
-        {/* <Title>
-          Join the <br /> Metaverse CUTM
+        <Container>
+
+        <Title>
+          Join the <br />  CUTM Metaverse
+         
         </Title>
-       <Button text="join now" link="#" /> */}
+        <JoiNow>
+    Join Now
+  </JoiNow>
+        </Container>
+
+
+{/* <Title>
+  Join the <br /> Metaverse CUTM
+</Title>
+<BtnContainer>
+  <JoiNow>
+    Join Now
+  </JoiNow>
+</BtnContainer>  */}
       </Section>
     </>
   );

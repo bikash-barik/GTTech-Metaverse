@@ -10,9 +10,9 @@ video{
     width:100%;
     height:auto;
     border-radius: 20px;
-    -webkit-box-shadow: -10px 15px 168px 13px rgba(0,0,0,0.75);
--moz-box-shadow: -10px 15px 168px 13px rgba(0,0,0,0.75);
-box-shadow: -10px 15px 168px 13px rgba(0,0,0,0.75);
+//     -webkit-box-shadow: -10px 15px 168px 13px rgba(0,0,0,0.75);
+// -moz-box-shadow: -10px 15px 168px 13px rgba(0,0,0,0.75);
+// box-shadow: -10px 15px 168px 13px rgba(0,0,0,0.75);
 
 }
 `

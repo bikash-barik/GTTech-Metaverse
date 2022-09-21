@@ -9,6 +9,7 @@ import Footer from "./componenets/Footer";
 import Home from "./componenets/sections/Home";
 import Showcase from "./componenets/sections/Showcase";
 import Landing from "./componenets/sections/Landing";
+import ScrollToTop from "./componenets/ScrollToTop";
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Showcase/>
       <Faq/>
       <Footer/>
+      <ScrollToTop />
      </ThemeProvider>
     </>
   );
