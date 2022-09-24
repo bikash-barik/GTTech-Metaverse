@@ -141,7 +141,7 @@ const Showcase = () => {
 
   return (
     <>
-      <Section>
+      <Section id='showcase'>
      <Row direction="none" ref={Row1Ref}>
         <MetaItem img={img1} number={528} price={1.5} passRef= {Row1Ref}  />
         <MetaItem img={img2} number={528} price={1.5} passRef= {Row1Ref} />

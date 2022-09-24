@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import CoverVideo from "../CoverVideo";
+import CoverVideo, { CoverVideo1 } from "../CoverVideo";
 import TypeWriterText from "./TypeWriterText";
 import RoundTextBlack from '../../assets/Rounded-Text-Black.png'
 
@@ -83,7 +83,7 @@ const Home = () => {
            <TypeWriterText/>
           </Box>
           <Box>
-            <CoverVideo/>
+            <CoverVideo1/>
           </Box> 
 
           <Round>

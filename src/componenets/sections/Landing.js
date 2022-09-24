@@ -10,16 +10,17 @@ const VideoContainer = styled.div`
   height: 90vh;
 
   object-fit: cover;
-  position: fixed;
-  // left: 0;
-  // right: 0;
-  // top: 0;
-  // bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
   video {
     width: 100%;
     height: auto;
     z-index: -1;
+    opacity: .7;
   }
 `;
 
@@ -28,6 +29,7 @@ const Section = styled.section`
   width: 100vw;
   min-height: 90vh;
   position: relative;
+  // position: static;
 
   // background-color: ${(props) => props.theme.body};
 `;
@@ -35,8 +37,9 @@ const Container = styled.div`
   width: 75%;
   min-height: 80vh;
   margin: 0 auto;
-  //   background-color: lightblue;
-  position: fixed;
+    // background-color: lightblue;
+  opacity: 1;
+  position: relative;
   top: 100px;
   left: 0;
   right: 0;
@@ -65,7 +68,7 @@ const Landing = () => {
           <TypeWriterText />
         </VideoContainer>
         <Container>
-          <Box>
+          <Box >
             <TypeWriterText />
           </Box>
           <Box>

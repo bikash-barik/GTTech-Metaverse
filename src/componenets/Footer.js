@@ -62,6 +62,7 @@ grid-template-rows: repeat(3, 1fr);
 const Item = styled.li`
 width: fit-content;
 cursor: pointer;
+padding: 15px;
 
 &::after{
   content:' ';
@@ -89,7 +90,20 @@ a{
 
 }
 `
+
+
+
 const Footer = () => {
+
+  const scrollTo = (id) => {
+    let element = document.getElementById(id);
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    })
+  
+  }
   return (
     <>
       <Section>
@@ -114,13 +128,12 @@ const Footer = () => {
             </IconList>
           </Left>
           <MenuItems>
-          <Item>Home</Item>
-          <Item>About</Item>
-          <Item>Roadmap</Item>
-
-          <Item>Showcase</Item>
-          <Item>Team</Item>
-          <Item>Faq</Item>
+          <Item  onClick={() => scrollTo('home')}>Home</Item>
+          <Item  onClick={() => scrollTo('about')}>About</Item>
+          <Item  onClick={() => scrollTo('roadmap')}>Roadmap</Item>
+          <Item  onClick={() => scrollTo('showcase')}>Showcase</Item>
+          <Item  onClick={() => scrollTo('team')}>Team</Item>
+          <Item  onClick={() => scrollTo('faq')}>Faq</Item>
           </MenuItems>
         </Container>
         <Bottom>

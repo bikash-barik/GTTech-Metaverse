@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-// import GIF from '../assets/Home Video.mp4';
+import CCC from '../assets/CCC.mp4';
 import GIF from '../assets/video1.mp4';
+// import Video from '../assets/Home Video.mp4';
 
 const VideoContainer = styled.div`
 width:100%;
@@ -22,13 +23,24 @@ const CoverVideo = () => {
   return (
     <>
      <VideoContainer>
-        <video src={GIF} type="video/mp4" autoPlay muted loop />
+        <video src={CCC} type="video/mp4" autoPlay muted loop />
         </VideoContainer>   
     </>
   )
 }
 
 export default CoverVideo
+
+
+export const CoverVideo1 = () => {
+  return (
+    <>
+     <VideoContainer>
+        <video src={CCC} type="video/mp4" autoPlay muted loop />
+        </VideoContainer>   
+    </>
+  )
+}
 
 
 
