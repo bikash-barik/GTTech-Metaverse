@@ -151,7 +151,7 @@ const Team = () => {
             <MemberComponent img={img3} name="Babu Shankar " position="Managing Director" />
             {/* <MemberComponent img={img1} name="Sandeep Kumar " position="Devloper" /> */}
         </Container>
-        <Title>Devloper Team</Title>
+        {/* <Title>Devloper Team</Title>
 
         <Row direction="none" ref={Row1Ref}>
           <MemberComponent img={img1} name="Bikash " position="Devloper" />
@@ -160,7 +160,7 @@ const Team = () => {
           <MemberComponent img={img1} name="Bikash " position="Devloper" />
           <MemberComponent img={img1} name="Bikash " position="Devloper" />
           <MemberComponent img={img1} name="Bikash " position="Devloper" />
-        </Row>
+        </Row> */}
       </Section>
     </>
   );
