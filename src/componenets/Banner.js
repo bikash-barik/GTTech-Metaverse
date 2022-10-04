@@ -152,7 +152,7 @@ const Banner = () => {
         <Container>
 
         <Title>
-          Join the <br />  CUTM Metaverse
+          Join the <br />  Centution Metaverse
          
         </Title>
         <JoiNow>

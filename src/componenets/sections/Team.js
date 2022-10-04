@@ -149,7 +149,7 @@ const Team = () => {
             <MemberComponent img={img1} name="Mukti Kanta Mishra " position="Director" />
             <MemberComponent img={img2} name="D.N. Rao " position="Director" />
             <MemberComponent img={img3} name="Babu Shankar " position="Managing Director" />
-            <MemberComponent img={img4} name="Sandeep Kumar " position="AR/VR" />
+            {/* <MemberComponent img={img4} name="Sandeep Kumar " position="AR/VR" /> */}
             {/* <MemberComponent img={img1} name="Sandeep Kumar " position="Devloper" /> */}
         </Container>
         {/* <Title>Devloper Team</Title>
