@@ -20,7 +20,7 @@ const VideoContainer = styled.div`
     width: 100%;
     height: auto;
     z-index: -1;
-    opacity: .7;
+    opacity: .9;
   }
 `;
 

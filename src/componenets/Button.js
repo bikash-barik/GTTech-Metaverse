@@ -43,9 +43,13 @@ position: relativel;
 const Button = ({text,link}) => {
   return (
     <>
+    <a href={link}  target="_blank" rel="noreferrer">
+
+   
       <Btn>
-        <a href={link} aria-label={text} target="_blank" rel="noreferrer">{text}</a>
+        <a href="#" aria-label={text} target="_blank" rel="noreferrer">{text}</a>
       </Btn>
+      </a>
     </>
   );
 };
