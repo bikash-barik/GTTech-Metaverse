@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-import img1 from "../assets/Anatomy/brain.gif";
-import img2 from "../assets/Anatomy/heart-only.gif";
-import img3 from "../assets/Nfts/bighead-3.svg";
-import img4 from "../assets/Nfts/bighead-4.svg";
-import img5 from "../assets/Nfts/bighead-5.svg";
-import img6 from "../assets/Nfts/bighead-6.svg";
-import img7 from "../assets/Nfts/bighead-7.svg";
+import img1 from "../assets/Anatomy/digestive_system-removebg-preview.png";
+import img2 from "../assets/Anatomy/kidney-disease-cause-diabetes.jpg";
+import img3 from "../assets/Anatomy/1200px-Lymphatic_system.svg.png";
+import img4 from "../assets/Anatomy/Diagram_of_the_human_heart.svg.png";
+import img5 from "../assets/Anatomy/Human_muscular_system_Thumnail.png";
+import img6 from "../assets/Anatomy/lungs.png";
+import img7 from "../assets/Anatomy/suyog-gastro-liver-933899.png";
 import img8 from "../assets/Nfts/bighead-8.svg";
 import img9 from "../assets/Nfts/bighead-9.svg";
 import img10 from "../assets/Nfts/bighead-10.svg";
@@ -152,7 +152,7 @@ const Banner = () => {
         <Container>
 
         <Title>
-          Join the <br />  CUTM Metaverse
+          Join the <br />  Centution Metaverse
          
         </Title>
         <JoiNow>

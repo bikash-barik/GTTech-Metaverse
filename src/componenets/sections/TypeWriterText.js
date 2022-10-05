@@ -52,22 +52,22 @@ const TypeWriterText = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString(" <span class='text-1'> Metaverse.</span>")
+              .typeString(" <span class='text-1'> Metaverse</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-2'>Collectible Item.</span>")
+              .typeString("<span class='text-2'>Collectible Item</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-3'>Ape Killers!</span>")
+              .typeString("<span class='text-3'>3D Assets!</span>")
               .pauseFor(2000)
               .deleteAll()
               .start();
           }}
         />
       </Title>
-      <Subtitle>Bored of Apes? try Something New.</Subtitle>
+      <Subtitle>Bored With Your Theory Book & Classes </Subtitle>
       <ButtonContainer>
-      <Button text="Explore" link="#about"/>
+      <Button text="Explore" link="https://gaming-35085.web.app/3d/anatomy"/>
       </ButtonContainer>
     </>
   );

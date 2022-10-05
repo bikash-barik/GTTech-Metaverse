@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
-import CCC from '../assets/CCC.mp4';
-import GIF from '../assets/video1.mp4';
+import CCC from '../assets/cutm.mp4';
+import GIF from '../assets/CCC.mp4';
 // import Video from '../assets/Home Video.mp4';
 
 const VideoContainer = styled.div`
@@ -22,7 +22,7 @@ video{
 const CoverVideo = () => {
   return (
     <>
-     <VideoContainer>
+        <VideoContainer>
         <video src={CCC} type="video/mp4" autoPlay muted loop />
         </VideoContainer>   
     </>
@@ -36,7 +36,7 @@ export const CoverVideo1 = () => {
   return (
     <>
      <VideoContainer>
-        <video src={CCC} type="video/mp4" autoPlay muted loop />
+        <video src={GIF} type="video/mp4" autoPlay muted loop />
         </VideoContainer>   
     </>
   )

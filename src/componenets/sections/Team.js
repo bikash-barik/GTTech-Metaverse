@@ -4,7 +4,7 @@ import styled, { keyframes } from "styled-components";
 import img1 from "../../assets/Team/muktisir.jpg";
 import img2 from "../../assets/Team/dn-sir.jpg";
 import img3 from "../../assets/Team/babu-sir.png";
-// import img4 from "https://w7.pngwing.com/pngs/304/275/png-transparent-user-profile-computer-icons-profile-miscellaneous-logo-monochrome.png";
+import img4 from "../../assets/Team/SandeepSir.png";
 
 import { useRef } from "react";
 
@@ -144,11 +144,12 @@ const Team = () => {
   return (
     <>
       <Section id="team">
-        <Title>Team</Title>
+        <Title>Our Leader</Title>
         <Container>
-            <MemberComponent img={img1} name="Mukti Kanta Mishra " position="Director" />
-            <MemberComponent img={img2} name="D.N. Rao " position="Director" />
+            <MemberComponent img={img1} name="Mukti Kanta Mishra " position="President" />
+            <MemberComponent img={img2} name="D.N. Rao " position="Vice-President" />
             <MemberComponent img={img3} name="Babu Shankar " position="Managing Director" />
+            {/* <MemberComponent img={img4} name="Sandeep Kumar " position="AR/VR" /> */}
             {/* <MemberComponent img={img1} name="Sandeep Kumar " position="Devloper" /> */}
         </Container>
         {/* <Title>Devloper Team</Title>

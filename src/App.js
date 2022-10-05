@@ -6,42 +6,45 @@ import About from "./componenets/sections/About";
 import Roadmap from "./componenets/sections/Roadmap";
 import Faq from "./componenets/sections/Faq";
 import Footer from "./componenets/Footer";
-import Home from "./componenets/sections/Home";
+// import Home from "./componenets/sections/Home";
 import Showcase from "./componenets/sections/Showcase";
 import Landing from "./componenets/sections/Landing";
 import ScrollToTop from "./componenets/ScrollToTop";
 import Team from "./componenets/sections/Team";
 
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Teams from "./Pages/Teams";
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <ThemeProvider theme={light}>
+      {/* <ThemeProvider theme={light}>
         <Navigation />
         <Landing />
         <Home />
         <About />
-        {/* <Roadmap/> */}
+        <Roadmap/>
         <Team />
         <Showcase />
         <Faq />
         <Footer />
-        {/* <ScrollToTop /> */}
-      </ThemeProvider>
-      {/* <GlobalStyles />
-      <ThemeProvider theme={light}>
- <Router>
+        <ScrollToTop />
+      </ThemeProvider> */}
      
-        <Routes>
-          <Route exact path="/" element={<Navigation/>}/>
+      <ThemeProvider theme={light}>
+      <Router >
+      <Switch>
+      
+      <Route exact path="/" component={Home} />
+      <Route path="/team" component={Teams} />
    
-        </Routes>
- 
+
+      </Switch>
     </Router>
-    </ThemeProvider> */}
+    </ThemeProvider>
     </>
   );
 }

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const LogoText = styled.h1`
 font-family: 'Akaya Telivigala', cursive;
-font-size: ${props => props.theme.fontxxl};
+font-size: ${props => props.theme.fontxl};
 color: ${props => props.theme.text};
 transition: all 0.2s ease;
 &:hover{
@@ -17,7 +17,7 @@ const Logo = () => {
   return (
     <>
      <LogoText>
-        <Link to="/">CUTM METAVERSE.</Link>
+        <Link to="/">CENTURION METAVERSE</Link>
         
         </LogoText>   
     </>
