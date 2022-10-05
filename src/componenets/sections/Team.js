@@ -144,10 +144,10 @@ const Team = () => {
   return (
     <>
       <Section id="team">
-        <Title>Team</Title>
+        <Title>Our Leader</Title>
         <Container>
-            <MemberComponent img={img1} name="Mukti Kanta Mishra " position="Director" />
-            <MemberComponent img={img2} name="D.N. Rao " position="Director" />
+            <MemberComponent img={img1} name="Mukti Kanta Mishra " position="President" />
+            <MemberComponent img={img2} name="D.N. Rao " position="Vice-President" />
             <MemberComponent img={img3} name="Babu Shankar " position="Managing Director" />
             {/* <MemberComponent img={img4} name="Sandeep Kumar " position="AR/VR" /> */}
             {/* <MemberComponent img={img1} name="Sandeep Kumar " position="Devloper" /> */}
