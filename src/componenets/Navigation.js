@@ -65,7 +65,7 @@ const navigateTo = () => history.push('/team');
 
   return (
     <>
-    <Section  >
+    <Section>
         <NavBar>
             <Logo/>
            <Menu>

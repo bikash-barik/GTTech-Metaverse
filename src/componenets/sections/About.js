@@ -88,7 +88,7 @@ const About = () => {
             </SubTextLight>
             <ButtonContainer>
               <ThemeProvider theme={dark}>
-                <Button text="JOIN OUR DISCORD" link="#" />
+                <Button text="JOIN WITH US" link="https://cutm.ac.in/" />
               </ThemeProvider>
             </ButtonContainer>
           </Box>

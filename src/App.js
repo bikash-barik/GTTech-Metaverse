@@ -34,7 +34,7 @@ function App() {
         <ScrollToTop />
       </ThemeProvider> */}
      
-      <ThemeProvider theme={light}>
+      {/* <ThemeProvider theme={light}> */}
       <Router >
       <Switch>
       
@@ -44,7 +44,7 @@ function App() {
 
       </Switch>
     </Router>
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
     </>
   );
 }
