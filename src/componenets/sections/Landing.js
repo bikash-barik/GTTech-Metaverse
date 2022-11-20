@@ -72,7 +72,7 @@ const Landing = () => {
             <TypeWriterText />
           </Box>
           <Box>
-            <CoverVideo />
+            {/* <CoverVideo /> */}
           </Box>
         </Container>
       </Section>

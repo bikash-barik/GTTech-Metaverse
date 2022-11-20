@@ -67,7 +67,7 @@ const TypeWriterText = () => {
       </Title>
       <Subtitle>Bored With Your Theory Book & Classes </Subtitle>
       <ButtonContainer>
-      <Button text="Explore" link="https://gaming-35085.web.app/3d/anatomy"/>
+      <Button text="Explore" link="/3dview/assest"/>
       </ButtonContainer>
     </>
   );

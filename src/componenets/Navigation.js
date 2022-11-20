@@ -65,7 +65,7 @@ const navigateTo = () => history.push('/team');
 
   return (
     <>
-    <Section  >
+    <Section>
         <NavBar>
             <Logo/>
            <Menu>
@@ -76,7 +76,7 @@ const navigateTo = () => history.push('/team');
             <MenuItem ><a href="/team">Team</a></MenuItem>
             <MenuItem onClick={() => scrollTo('faq')}>Faq</MenuItem>
            </Menu>
-            <Button text="Connect Wallet" link="https://google.com" />
+            <Button text="Explore" link="/3dview/assest" />
         </NavBar>
     </Section>
     </>
